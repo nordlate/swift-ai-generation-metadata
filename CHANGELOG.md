@@ -3,9 +3,9 @@
 The package uses semantic versioning. Before 1.0.0, a minor version may change the public API. Each entry also names the
 `MediaMetadataExtractor.parserVersion` it ships, which goes up whenever extraction output changes.
 
-## Unreleased
+## 0.1.0
 
-First release, to be tagged 0.1.0 (parser version 1).
+First release (parser version 1).
 
 - `MediaMetadataExtractor.extract(from:provenanceMarkers:)` reads PNG, JPEG and WebP images: PNG tEXt, zTXt and iTXt chunks with per-chunk and
   per-image size limits, and EXIF UserComment, including the IFD0 placement Fooocus's Pillow writer uses.
